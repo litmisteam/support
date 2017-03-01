@@ -6,3 +6,5 @@ Litmis Spaces _Multi_ Tenant simplifies access to IBM i for open source learning
 
 **Looking to learn an open source language on IBM i?**  Check out our [labs](/multi-tenant/labs.md).
 
+**Questions?** Contact us at [team@litmis.com](mailto:%20team@litmis.com)
+
