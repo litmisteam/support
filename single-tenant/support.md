@@ -16,11 +16,7 @@ Your Litmis Spaces _Single_ Tenant IBM i instance has paid maintenance which giv
 
 # Litmis
 
-## Single Tenant
-
 Email [team@litmis.com](mailto:team@litmis.com) for support and questions about your Litmis Space. Please note this is for issues regarding the service you’ve purchased and not for day-to-day maintenance of your machine. For example, if you are having trouble getting connected to your machine then we can help with that. If you’re wanting us to assist with installing PTFs, open source configuration, or other things, then we would need to enter into a consulting relationship \($150/hr\).
-
-## Multi Tenant
 
 
 
