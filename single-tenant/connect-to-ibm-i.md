@@ -32,5 +32,5 @@ Included with each Litmis Space _Single_ Tenant base configuration is a browser-
 **Step 4:**Add a Firewall entry for your public IP so you can connect to the IBM i public IP.  
 ![](/assets/firewall_vcloud3.png "vCloud 3")
 
-After hitting OK above the firewall needs about 10 seconds to apply the new configuration and you are now ready to connect a 5250 telnet session.
+After hitting OK above the firewall needs about 10 seconds to apply the new configuration and you are now ready to connect a 5250 telnet session using the _IBM i Public IP_ mentioned above \(the one from your email\).
 
