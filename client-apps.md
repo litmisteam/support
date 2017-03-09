@@ -14,3 +14,4 @@ The following are listed according to our personal preference :-)
 - [VSCode](http://code.visualstudio.com/) + [SSHFS](https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh)  ([article](http://bit.ly/mcpress-edit-ifs-files))
 - [RDi](http://www-03.ibm.com/software/products/en/dev-ibm-i) $886/user/yr
 - [MiWorkplace](https://www.miworkplace.com/) $27.50/user/yr
+- [Notepad++ for RPG](https://github.com/WorksOfBarry/Notepad-RPG)
