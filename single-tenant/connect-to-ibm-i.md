@@ -34,3 +34,4 @@ Included with each Litmis Space _Single_ Tenant base configuration is a browser-
 
 After hitting OK above the firewall needs about 10 seconds to apply the new configuration and you are now ready to connect a 5250 telnet session using the _IBM i Public IP_ mentioned above \(the one from your email\).
 
+

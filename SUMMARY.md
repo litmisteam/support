@@ -9,4 +9,5 @@
   * [Labs](multi-tenant/labs.md)
 * General IBM i
   * [Navigator for i](navigator-for-i.md)
+  * [Client Apps](client-apps.md)
 
