@@ -7,4 +7,6 @@
   * [FAQ](single-tenant/faq.md)
 * [Multi Tenant](multi-tenant.md)
   * [Labs](multi-tenant/labs.md)
+* General IBM i
+  * [Navigator for i](navigator-for-i.md)
 
