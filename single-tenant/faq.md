@@ -20,6 +20,10 @@ A: Yes, you can IPL to your heart's content.  Note that only our staff has acces
 
 A: P20
 
+**Q: What is my (logical) partition id?**
+
+A: Run command `GO SERVICE` and then take option 6 (`Display service registration information`).
+
 **Q: Do you also offer Windows and Linux hosting?**
 
 A: Yes, please contact [team@litmis.com](mailto:team@litmis.com) to learn more.
