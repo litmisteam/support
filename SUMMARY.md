@@ -8,8 +8,9 @@
   * [FAQ](single-tenant/faq.md)
 * [Multi Tenant](multi-tenant.md)
   * [Labs](multi-tenant/labs.md)
-* General IBM i
+* [General IBM i](general-ibm-i.md)
   * [Installing PTFs](installing-ptfs.md)
   * [Navigator for i](navigator-for-i.md)
   * [Client Apps](client-apps.md)
+  * [Backups](backups.md)
 
