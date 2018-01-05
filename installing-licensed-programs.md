@@ -1,3 +1,4 @@
+# Installing Licensed Programs
 Your Litmis Space should be loaded with most software.  If you need additional software you can easily load it yourself from the image catalog we've configured.  [Click here](https://www.ibm.com/support/knowledgecenter/en/ssw_ibm_i_72/rzahc/rzaskMediaContent.htm) to learn what is on each IBM i "CD".
 
 The following shows how to install WDS option 60 which is required to do RDi debugging.
