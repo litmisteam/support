@@ -2,11 +2,53 @@
 
 This section is meant to provide information if you've purchased VTL (Virtual Tape Library) with your Litmis Spaces IBM i partition.
 
-## Object/Library Restoration 
-is self-service via BRMS (IBM Backup, Recovery and Media Services) and all virtual backup tapes are online so as long as proper backups were performed against the object/library, restoration is available.  
+## BRMS Restore 
+The process is the same as if you were using the RSTLIB command. There is a parameter in the restore command to restore to a different library.
 
-Let us know if you need help with these steps.
- 
+
+### To Recover a Library to a Different Library
+
+**Steps:**
+`GO BRMS`
+- Select option `4. Recovery`
+- Select option `2. Perform recovery`
+- Select option `4. Recover library`
+
+On the Start Recovery using BRM enter the Library (Ex. `NLC`) and hit the Enter key, as shown below.
+
+![](/assets/brms1.png)
+
+The select Recovery Items screen shows all the backup versions.  Enter option 1 next to the date you want to restore from and Press F9 Recovery Defaults (This is where we can change the restore parameters like the Restore To Library)
+  
+![](/assets/brms2.png)
+
+Page Down and enter the Restore to Library (Ex. `NLC2`)
+
+![](/assets/brms3.png)
+
+Enter any other parameters you may want to change then Hit Enter to change the Restore Defaults.
+
+Then Hit Enter again to start the Restore.
+
+### To Recover an Object to a Different Library
+
+You will have to create the target library first and then follow these steps:
+
+`GO BRMS`
+- Select option `4. Recovery`
+- Selection option `2. Perform recovery`
+- Select option `6. Work with saved objects`
+
+Specify the object and library (Ex. `savpay` `nlc`) and hit Enter, as shown below.
+
+![](/assets/brms4.png)
+
+Then select option `7 Restore Object` next to the backup version date you want to restore and hit enter.
+
+On the `Select Recovery Items` screen hit `F9 Recovery Defaults` (page down to specify the `Restore To Library`) then hit Enter.
+Then hit Enter again to start the restore.
+
+
 ## System Recovery 
 This requires a notification to Litmis Support (team@litmis.com). Also, periodic full system backups must have been performed prior to any system recovery requests.  Detailed BRMS recovery reports should be kept and provided to identify virtual tape volume to be used for such recovery purposes.
 
