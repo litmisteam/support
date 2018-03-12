@@ -6,6 +6,7 @@
   * [TLS/SSL Telnet](single-tenant/tlsssl-telnet.md)
   * [Support](single-tenant/support.md)
   * [FAQ](single-tenant/faq.md)
+  * [Port Forwarding](single-tenant/port-forwarding.md)
 * [Multi Tenant](multi-tenant.md)
   * [Labs](multi-tenant/labs.md)
 * [General IBM i](general-ibm-i.md)
