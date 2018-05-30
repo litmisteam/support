@@ -8,5 +8,3 @@ These labs can be done on the Litmis Spaces Multi Tenant machine at no cost.
 
 ## [Ruby On Rails Intro](http://kti.news/litmislearn-rubyonrailsintro)
 
-
-
