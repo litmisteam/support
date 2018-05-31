@@ -29,7 +29,7 @@ If you have any questions feel free to email [team@litmis.com](mailto:).
 
 ## Password-less Authentication _\(optional\)_
 
-To add an extra layer of security you can turn off password authentication and instead rely entirely on SSH keys.  This means only those that have copied their public SSH key to the IBM i can log in.  By doing this you eliminate the ability for a hacker to do a brute force attack through repeated login attempts with user and password.
+To add an extra layer of security you can turn off password authentication and instead rely entirely on SSH keys.  This means only those that have copied their public SSH key to the IBM i can log in \(big security benefit\).  By doing this you eliminate the ability for a hacker to do a brute force attack through repeated login attempts with user and password.
 
 Edit file `/QOpenSys/QIBM/ProdData/SC1/OpenSSH/etc/sshd_config` to have the following configurations set.
 
@@ -46,7 +46,7 @@ ENDTCPSVR *SSHD
 STRTCPSVR *SSHD
 ```
 
-Next you need to create an SSH key on you laptop that can be copied to your `~/.ssh/authorized_keys` file on the IBM i.  Select the **Client key manager** on the **Login** tab.
+Next you need to create an SSH key on your laptop that can be copied to your `~/.ssh/authorized_keys` file on the IBM i.  Select the **Client key manager** on the **Login** tab.
 
 ![](../.gitbook/assets/bitvise_clientkeymngr.png)
 
