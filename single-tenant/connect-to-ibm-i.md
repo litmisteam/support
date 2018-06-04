@@ -1,8 +1,8 @@
 # Connect To IBM i
 
-When you sign up for a Litmis Spaces _single tenant_ server you will have one of two firewall configurations; either vShield Edge \(free\) or SOPHOS \(additional charge\).  
+When you sign up for a Litmis Spaces _single tenant_ server you will have one of two firewall configurations; either vShield Edge \(free\) or SOPHOS \(additional charge\).  Connecting via both of these is documented on this page.
 
-By default the firewall is fairly locked down and you must log into it and configure your IP address to be allowed access to your IBM i. This documentation will walk you through that process for both of the firewalls. 
+By default the firewall is fairly locked down and you must log into it and configure your IP address to be allowed access to your IBM i.
 
 ## vShield Edge  {#vcloud-vshield-edge-gateway-firewall}
 
@@ -34,10 +34,24 @@ After hitting OK above the firewall needs about 10 seconds to apply the new conf
 
 ## SOPHOS
 
+You should have received an email with the following information.
+
+```text
+VPN User URL: https://99.99.99.99
+Firewall URL: https://99.99.99.99:444
+Username:admin
+Password:xxxxxxxx
+
+IBM i Internet IP:66.186.999.999
+IBM i Intranet IP:192.168.0.2
+Username:QSECOFR
+Password:xxxxxxx
+```
+
 **Step 1:**Go to myglobalip.com and obtain your public IP so it can be put into the firewall.  
 ![MyGlobalIP](../.gitbook/assets/firewall_myglobalip.png)
 
-Log into the SOPHOS interface and navigate to the **NAT** tab and create a **New NAT Rule**, as shown below.
+Log into the SOPHOS interface using the aforementioned `Firewall URL` , `Username`, and `Password`. Navigate to the **NAT** tab and create a **New NAT Rule**, as shown below.
 
 ![](../.gitbook/assets/image%20%288%29.png)
 
@@ -45,7 +59,7 @@ You should be presented with the following **Add NAT Rule** window.  You'll need
 
 ![](../.gitbook/assets/image%20%286%29.png)
 
-Below is a screenshot of adding the **Going to** mapping.  First you'll need to click the folder icon to the right of the **Going to** field to bring up the **Networks** listing that is shown in the far left.  Drag the entry named "External \(WAN\) \(Address\)" from the listing to the **Going to** field.
+Below is a screenshot of adding the **Going to** mapping.  First you'll need to click the folder icon to the right of the **Going to** field to bring up the **Networks** listing that is shown in the far left.  Drag the entry named "**External \(WAN\) \(Address\)**" from the listing to the **Going to** field.
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
