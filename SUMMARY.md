@@ -8,6 +8,7 @@
   * [FAQ](single-tenant/faq.md)
   * [Port Forwarding](single-tenant/port-forwarding.md)
   * [SSH Tunnels](single-tenant/ssh-tunnels.md)
+  * [Open Source Installation](single-tenant/open-source-installation.md)
 * [Multi Tenant](multi-tenant/README.md)
   * [Labs](multi-tenant/labs.md)
 * [General IBM i](general-ibm-i/README.md)
