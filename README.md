@@ -8,7 +8,7 @@ Please review the entries in the left bar for assistance. Have questions? Email 
 
 ## What is LITMIS?
 
-[Litmis](https://www.krengeltech.com/litmis) is a [Krengeltech](https://www.krengeltech.com/) brand and has three primary offerings...
+[Litmis](https://www.krengeltech.com/litmis) is a [Krengeltech](https://www.krengeltech.com/) brand and has three primary offerings:
 
 * [IBM i hosting](https://www.krengeltech.com/litmis/spaces/)
 * [IBM i open source consulting](https://www.krengeltech.com/litmis/jump-start-program/)
